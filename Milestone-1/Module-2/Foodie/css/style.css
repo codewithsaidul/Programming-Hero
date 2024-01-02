@@ -1,0 +1,136 @@
+/* ============================================
+===================== Google Font ============================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,700&family=Poppins:wght@400;500;600&family=Rubik:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.container{
+    margin: 0 4rem;
+}
+
+
+
+header{
+    width: 100%;
+    /* position: fixed; */
+    height: 3.5rem;
+    /* background-color: red; */
+}
+
+.nav{
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list{
+    display: flex;
+}
+
+.nav__logo{
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.nav__logo img{
+    width: 100px;
+}
+
+.nav__item{
+    margin-left: 30px;
+}
+
+.nav__link{
+    font-size: 20px;
+    text-decoration: none;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    transition: .3s;
+}
+
+.active{
+    color: #EB0029;
+    cursor: pointer;
+}
+
+.home{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home__content{
+    /* margin-top: -300px; */
+    width: 48%;
+}
+
+.up__btn{
+    padding: 10px 32px;
+    background-color: #FEE9DE;
+    font-size: 18px;
+    color: #EB0029;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: -100px;
+    text-decoration: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.title{
+    margin-top: 60px;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.food{
+    color: #EB0029;
+    font-style: italic;
+    font-family: 'Lobster Two', sans-serif;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.get__btn{
+    padding: 10px 32px;
+    background-color: #EB0029;
+    color: #fff;
+    font-size: 18px;    
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.home__img{
+    width: 45%;
+    display: inline-block;
+}
+
+.home__img img{
+    margin-top: 100px;
+    width: 100%;
+}

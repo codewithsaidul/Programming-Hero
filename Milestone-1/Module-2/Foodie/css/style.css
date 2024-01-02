@@ -82,6 +82,7 @@ header{
 .home__content{
     /* margin-top: -300px; */
     width: 48%;
+    position: relative;
 }
 
 .up__btn{
@@ -128,9 +129,49 @@ header{
 .home__img{
     width: 45%;
     display: inline-block;
+    position: relative;
+
+
 }
 
 .home__img img{
     margin-top: 100px;
     width: 100%;
+}
+
+.cir1{
+    width: 10px;
+    height: 10px;
+    background-color: #F2C94C;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
+
+.imgs{
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 85px;
+    background-color: #F2C94C;
+    top: 50px;
+    transform: rotate(30deg);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: round 10s infinite;
+}
+.cir{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: round 10s infinite;
+}
+
+@keyframes round {
+    0%{transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
 }

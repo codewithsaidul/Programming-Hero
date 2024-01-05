@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task - 3 </title>
+    <style>
+        .title{
+            font-size: 50px;
+        }
+        .cen{
+            text-align: center;
+            font-size: 30px;
+        }
+
+        table{
+            /* border-collapse: collapse; */
+            border: 1px solid #000;
+            padding: 2px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        th{
+            font-weight: 900;
+        }
+
+        th, td{
+            border: 1px solid #000;
+            padding: 20px;
+        }
+        .tb_head{
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="title">Table Tennis Tournament</h2>
+
+    <p class="cen">Tournament Schedule & Result</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Round 1</th>
+                <th>Player A</th>
+                <th>Player B</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Match 1</td>
+                <td>John</td>
+                <td>Alice</td>
+            </tr>
+
+            <tr>
+                <td>Match 2</td>
+                <td>Mark</td>
+                <td>Sarah</td>
+            </tr>
+
+            <!-- Round 2 Start -->
+
+            <tr class="tb_head">
+                <td>Round 2</td>
+                <td>Player C</td>
+                <td>Player D</td>
+            </tr>
+
+            <tr>
+                <td>Match 3</td>
+                <td>TBD</td>
+                <td>TBD</td>
+            </tr>
+            <tr>
+                <td>Match 4</td>
+                <td>TBD</td>
+                <td>TBD</td>
+            </tr>
+        </tbody>
+
+        <!-- Final Round Start -->
+        <tfoot>
+            <tr class="tb_head">
+                <td>Final</td>
+                <td>Winner of Match 3</td>
+                <td>Winner of Match 4</td>
+            </tr>
+
+            <tr>
+                <td>Champion</td>
+                <td>TBD</td>
+                <td>TBD</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task - 2 </title>
+
+    <style>
+        header {
+            margin: 0 auto;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        nav > ul {
+            display: flex;
+            margin-right: 20px;
+        }
+
+        nav > ul > li {
+            list-style: none;
+        }
+
+        nav > ul > li a {
+            text-decoration: none;
+            margin-right: 30px;
+            font-size: 24px;
+            color: #000;
+            transition: .5s;
+        }
+
+        nav > ul > li a:hover{
+            color: chocolate;
+            transition: .5s;
+        }
+        .title{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        article > div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .description{
+            font-size: 20px;
+            color: blueviolet;
+        }
+        article img{
+            width: 20%;
+            height: 20%;
+            /* height: 400px; */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- This is Header -->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+
+                <li>
+                    <a href="#">About</a>
+                </li>
+
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!-- This is a Main Part of The Website -->
+    <main>
+        <!-- This is a Story Telling  -->
+
+        <article>
+            <h2 class="title">Panda Story</h2>
+            <div>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iste nam quam provident labore voluptates nostrum quidem, expedita, eos ut laborum molestias quibusdam pariatur voluptas, sunt voluptatum a. Voluptatibus, id.
+                </p>
+
+                <img src="/Milestone-1/Module-4/Task-1/panda.jpg" alt="">
+            </div>
+        </article>
+
+
+        <!-- This is a Feed Back Form -->
+
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend>Rate Your Story</legend>
+
+                    <label for="name">
+                        Name : <br> <input type="text" placeholder="Your Name" id="name">
+                    </label>
+                    <br><br>
+                    <label for="email">
+                        E-Mail : <br> <input type="email" placeholder="Your E-Mail" id="email">
+                    </label>
+
+                    <br> <br>
+
+                    <select name="" id="">
+                        <option value="rate">Rate Your Mind</option>
+                        <option value="rate">Excellent</option>
+                        <option value="rate">Good</option>
+                        <option value="rate">Not Bad</option>
+                        <option value="rate">Bad</option>
+                    </select>
+
+                    <br>
+                    <br>
+
+                    <label for="review">
+                        Review : <br>
+                        <textarea name="" id="review" cols="30" rows="10"></textarea>
+                    </label>
+
+                    <br> <br>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

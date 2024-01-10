@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5 by PH</title>
+
+    <style>
+        img {
+            width: 100%;
+        }
+
+        .city {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* column-gap: 30px; */
+            /* margin-bottom: 30px; */
+            /* border: 1px solid tomato; */
+            /* padding: 20px 30px; */
+            /* padding: 20px; */
+        }
+
+        .city:last-child {
+            flex-direction: row-reverse;
+        }
+
+        .city .text {
+            padding: 20px 30px;
+            margin-right: 3px;
+            text-align: justify;
+
+        }
+
+        .city:last-child .city__img {
+            margin-top: -3px;
+        }
+
+        .city div {
+            width: 50%;
+        }
+
+
+        @media screen and (max-width: 576px) {
+            .city {
+                flex-direction: column;
+            }
+
+            .city div {
+                width: 100%;
+            }
+
+            .city:last-child {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="city">
+            <div class="city__img">
+                <img src="./images/city1.jpg" alt="">
+            </div>
+
+            <div class="text">
+                <h2>why do use it</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A autem nesciunt eius natus sint nostrum
+                    alias
+                    dolor officiis ducimus dicta! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam atque
+                    eius ab corrupti culpa libero iure dolorem alias quam aspernatur. Lorem ipsum dolor sit amet
+                    consectetur
+                    adipisicing elit. Distinctio illo ducimus velit delectus commodi architecto totam minus officia
+                    voluptatum ipsam.
+                    <br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi autem atque magni modi enim eligendi
+                    ex
+                    dolorem amet recusandae quo? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
+                    praesentium quam quae officia et quod exercitationem. Nobis unde officia aliquid. Lorem ipsum dolor
+                    sit
+                    amet consectetur adipisicing elit. Natus, praesentium sunt. Qui laborum commodi veniam sunt aliquid
+                    velit distinctio ea!
+                </p>
+            </div>
+        </div>
+
+
+        <div class="city">
+            <div class="city__img">
+                <img src="./images/city2.jpg" alt="">
+            </div>
+
+            <div class="text">
+                <h2>why do use it</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A autem nesciunt eius natus sint nostrum
+                    alias
+                    dolor officiis ducimus dicta! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam atque
+                    eius ab corrupti culpa libero iure dolorem alias quam aspernatur. Lorem ipsum dolor sit amet
+                    consectetur
+                    adipisicing elit. Distinctio illo ducimus velit delectus commodi architecto totam minus officia
+                    voluptatum ipsam.
+                    <br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi autem atque magni modi enim eligendi
+                    ex
+                    dolorem amet recusandae quo? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam,
+                    praesentium quam quae officia et quod exercitationem. Nobis unde officia aliquid. Lorem ipsum dolor
+                    sit
+                    amet consectetur adipisicing elit. Natus, praesentium sunt. Qui laborum commodi veniam sunt aliquid
+                    velit distinctio ea!
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

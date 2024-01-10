@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 by PH</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1124px;
+            margin: 60px auto;
+        }
+
+        .food__item {
+            display: flex;
+            /* justify-content: space-between; */
+            align-items: center;
+            column-gap: 50px;
+            margin-bottom: 40px;
+            padding: 30px 40px;
+            background-color: #fff;
+            box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .food__item div {
+            width: 50%;
+        }
+
+        .food__item .food__img {
+            width: 300px;
+            height: 300px;
+        }
+
+        .food__item h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: coral;
+            margin-bottom: 0.5rem;
+        }
+
+        .food__item p {
+            font-size: .874rem;
+            font-weight: 300;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            line-height: 22px;
+            margin-bottom: 2rem;
+        }
+
+        .food__item a {
+            text-decoration: none;
+            padding: 10px 32px;
+            background-color: darkgoldenrod;
+            text-transform: uppercase;
+            color: #fff;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+
+        @media screen and (max-width: 576px) {
+            .food__item {
+                flex-direction: column;
+                align-items: start;
+                justify-content: start;
+            }
+
+            .food__item div {
+                width: 100%;
+            }
+
+            .food__img {
+                margin-bottom: 2rem;
+            }
+
+            .food__item h2 {
+                font-size: 1.5rem;
+
+            }
+
+            .food__item p {
+                font-size: .80rem;
+                font-weight: 300;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                line-height: 22px;
+                margin-bottom: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="food__item">
+            <div class="food__img">
+                <img src="./images/food1.jpg" alt="food image">
+            </div>
+
+            <div>
+                <h2>Issues with Memory and Learning</h2>
+                <p>High sugar and fat intake seem to inhibit the brain's capacity for learning and memory formation.
+                    When youngsters are developing and learning at their peak levels, this behaviour is particularly
+                    common. Testing revealed a quick inflammatory response in the hippocampus, the part of the brain
+                    that controls memory and recognition.</p>
+                <a href="#">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="food__item">
+            <div class="food__img">
+                <img src="./images/food2.jpg" alt="food image">
+            </div>
+
+            <div>
+                <h2>Impact on the Mind that Causes Depression</h2>
+                <p>Overindulging in junk food alters the chemical makeup of your brain. Your body becomes more reliant
+                    on
+                    these unhealthy meals as a result, increasing your cravings for them. People have withdrawal
+                    symptoms
+                    similar to those of addiction, and it can cause sadness. </p>
+                <a href="#">Buy Now</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module-2 by PH</title>
+
+    <style>
+
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .box {
+            background-color: slateblue;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .container2 {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .item {
+            width: 260px;
+            height: 300px;
+            background-color: aquamarine;
+            border: 2px solid tomato;
+            padding: 20px;
+        }
+
+        @media screen and (max-width: 576px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <h2>Flexiable Flex</h2>
+
+    <div class="container">
+        <div class="first box">
+            <h3>
+                First Box
+            </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt qui cumque voluptatibus exercitationem necessitatibus eum odio ducimus possimus iste facilis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt qui cumque voluptatibus exercitationem necessitatibus eum odio ducimus possimus iste facilis?</p>
+        </div>
+        <div class="second box">
+            <h3>Second Box</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit ducimus placeat doloribus minima ratione iusto culpa labore, voluptatibus eum ex? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt qui cumque voluptatibus exercitationem necessitatibus eum odio ducimus possimus iste facilis?</p>
+        </div>
+        <!-- <div class="second box">
+            <h3>Second Box</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit ducimus placeat doloribus minima ratione iusto culpa labore, voluptatibus eum ex? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt qui cumque voluptatibus exercitationem necessitatibus eum odio ducimus possimus iste facilis?</p>
+        </div> -->
+    </div>
+    <div class="container2">
+        <div class="item">
+            <h3>
+                First Box
+            </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt qui cumque voluptatibus exercitationem necessitatibus eum odio ducimus possimus iste facilis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt qui cumque voluptatibus exercitationem necessitatibus eum odio ducimus possimus iste facilis?</p>
+        </div>
+        <div class="item">
+            <h3>Second Box</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit ducimus placeat doloribus minima ratione iusto culpa labore, voluptatibus eum ex? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt qui cumque voluptatibus exercitationem necessitatibus eum odio ducimus possimus iste facilis?</p>
+        </div>
+        <div class="item">
+            <h3>Second Box</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit ducimus placeat doloribus minima ratione iusto culpa labore, voluptatibus eum ex? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt qui cumque voluptatibus exercitationem necessitatibus eum odio ducimus possimus iste facilis?</p>
+        </div>
+        <div class="item">
+            <h3>Second Box</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit ducimus placeat doloribus minima ratione iusto culpa labore, voluptatibus eum ex? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt qui cumque voluptatibus exercitationem necessitatibus eum odio ducimus possimus iste facilis?</p>
+        </div>
+        <div class="item">
+            <h3>Second Box</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit ducimus placeat doloribus minima ratione iusto culpa labore, voluptatibus eum ex? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt qui cumque voluptatibus exercitationem necessitatibus eum odio ducimus possimus iste facilis?</p>
+        </div>
+    </div>
+</body>
+</html>

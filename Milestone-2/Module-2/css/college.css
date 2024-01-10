@@ -27,3 +27,27 @@ img {
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+
+
+/* Responsive Media Query */
+
+@media screen and (max-width: 576px) {
+    .row {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .square {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Mediuam DEvice */
+
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .row {
+        flex-direction: column;
+        height: auto;
+    }
+}
